@@ -1,0 +1,172 @@
+/* Basic styling */
+body {
+    /* Define your gradient here */
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    /* Adjust colors as needed */
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar-nav li a:hover {
+    color: #ddd;
+}
+
+
+/* Hero Section */
+.hero {
+    /* Fonts */
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+    /* image brakground */
+    background-image: url('images/hero-bg.jpg');
+    background-size: cover;
+
+    /* Gradient Text */
+    background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif; /* Use a complementary font (e.g., Open Sans) */
+    font-size: 1.2rem;
+    color: #777; /* A slightly lighter color for the subtitle */
+}
+
+
+/* Other sections: about, projects, contact, etc. */
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Projects Section */
+
+.project {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.project a:hover {
+    color: #0056b3;
+}
+
+
+
+/* Contact Form */
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
